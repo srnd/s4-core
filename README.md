@@ -8,6 +8,8 @@ s4 Core is the engine that powers StudentRND's s4. We turned it into its own mod
 
 ### Slack <-> Telegram Echo Command
 
+![](https://horner.tj/c/449)
+
 First:
 
 ```bash
@@ -23,6 +25,7 @@ var s4 = require('s4-core'),
 bot.setConnector(bot.CONNECTOR_TYPES.TYPE_MESSAGE_SENDER, telegram); // send messages to Telegram
 bot.setConnector(bot.CONNECTOR_TYPES.TYPE_MESSAGE_HANDLER, slack); // receive messages from Slack
 // you can switch those two connectors around and receive from Telegram instead of Slack!
+// you can also make both of them telegram or slack
 
 // this is documented here: https://github.com/StudentRND/s4/wiki/Commands
 bot.addCommand("echo", "Echo the specified text.", function(message, args, channel, username){
