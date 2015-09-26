@@ -1,0 +1,7 @@
+{
+  "name": "s4-core",
+  "version": "1.0.1",
+  "description": "The framework behind StudentRND's s4. Bot creation, made easy.",
+  "repository": "https://github.com/StudentRND/s4-core",
+  "dependencies": { }
+}
