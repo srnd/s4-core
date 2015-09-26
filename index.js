@@ -99,4 +99,4 @@ function Core(){
 
 util.inherits(Core, EventEmitter);
 
-module.exports = Bot;
+module.exports = Core;
