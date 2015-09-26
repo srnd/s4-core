@@ -1,6 +1,6 @@
 {
   "name": "s4-core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The framework behind StudentRND's s4. Bot creation, made easy.",
   "repository": "https://github.com/StudentRND/s4-core",
   "main": "index.js",

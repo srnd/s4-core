@@ -97,6 +97,6 @@ function Core(){
   return this;
 }
 
-util.inherits(Bot, EventEmitter);
+util.inherits(Core, EventEmitter);
 
 module.exports = Bot;
