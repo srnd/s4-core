@@ -25,6 +25,7 @@ function Core(){
         break;
       case this.CONNECTOR_TYPES.TYPE_MESSAGE_HANDLER:
         this.handleMessage = connector.handleMessage;
+        this.handleMessage();
         break;
       default:
         throw new Error("Connector type unknown");
